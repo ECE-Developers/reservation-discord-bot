@@ -1,2 +1,6 @@
 # 가상 환경
 venv
+
+# IDE 환경
+.idea
+.gitignore
