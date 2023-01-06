@@ -16,7 +16,7 @@ $ pip3 --version
 $ python3 --version
 ```
 
-## Local Setting
+## Local Setting ( MAC )
 ```bash
 # 로컬로 프로젝트 파일 복사
 $ git clone https://github.com/ece-beta/reservation-discord-bot
@@ -25,7 +25,7 @@ $ git clone https://github.com/ece-beta/reservation-discord-bot
 $ cd reservation-discord-bot
 
 # python3 가상환경 구축
-$ python3 -r venv .venv
+$ python3 -m venv venv 
 
 # python3 가상환경 실행
 $ source venv/bin/activate
@@ -43,3 +43,11 @@ $ python3 main.py
 ```
 
 - local 환경에서 디스코드 봇을 실행시킵니다.
+
+### 가상환경 종료
+
+```bash
+$ deactivate 
+```
+
+- 가상환경을 종료합니다.
