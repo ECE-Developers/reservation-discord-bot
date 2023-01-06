@@ -4,3 +4,6 @@ venv
 # IDE 환경
 .idea
 .gitignore
+
+# 환경 변수
+.env
