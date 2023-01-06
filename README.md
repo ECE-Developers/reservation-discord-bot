@@ -15,11 +15,17 @@ Checking Version
 $ pip3 --version
 $ python3 --version
 ```
+## .env Setting
+
+1. 해당 디렉토리에 .env 라는 이름의 파일 생성
+2. .env.example에 있는 내용을 복사
+3. 환경 변수에 해당하는 값 설정
 
 ## Local Setting ( MAC )
+
 ```bash
 # 로컬로 프로젝트 파일 복사
-$ git clone https://github.com/ece-beta/reservation-discord-bot
+$ git clone https://github.com/ece-developers/reservation-discord-bot
 
 # 디렉토리 이동
 $ cd reservation-discord-bot
@@ -29,6 +35,9 @@ $ python3 -m venv venv
 
 # python3 가상환경 실행
 $ source venv/bin/activate
+
+# python3 패키지 실행
+$ pip install -r requirements.txt
 
 # 실행
 $ python3 main.py
