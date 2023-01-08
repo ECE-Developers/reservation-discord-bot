@@ -25,7 +25,7 @@ $ python3 --version
 
 ```bash
 # 로컬로 프로젝트 파일 복사
-$ git clone https://github.com/ece-developers/reservation-discord-bot
+$ git clone https://github.com/ECE-Developers/reservation-discord-bot
 
 # 디렉토리 이동
 $ cd reservation-discord-bot
