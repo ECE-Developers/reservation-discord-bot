@@ -36,8 +36,8 @@ $ python3 -m venv venv
 # python3 가상환경 실행
 $ source venv/bin/activate
 
-# python3 패키지 실행
-$ pip install -r requirements.txt
+# python3 패키지 설치
+$ pip install -r requirement.txt
 
 # 실행
 $ python3 main.py
@@ -60,3 +60,11 @@ $ deactivate
 ```
 
 - 가상환경을 종료합니다.
+
+### pip 패키지 확인
+
+```bash
+$ pip3 freeze
+```
+
+- 현재 설치된 python의 패키지들을 확인합니다.
