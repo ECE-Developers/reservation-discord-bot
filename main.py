@@ -22,6 +22,18 @@ async def on_ready():
 
 
 @bot.command()
+async def 공지(ctx):
+    #Make an announcement
+    embed = discord.Embed(title='admin client 공지사항', description='admin client page의 공지사항입니다.', color=0x4285F4)
+    embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/1061936204637016107/1075409193797947494/001.png")
+    embed.add_field(name='1. 첫 번째 공지', value='첫 번째 공지사항입니다.', inline=False)
+    embed.add_field(name='2. 두 번째 공지', value='두 번째 공지사항입니다.', inline=False)
+    embed.add_field(name='3. 세 번째 공지', value='세 번째 공지사항입니다.', inline=False)
+    embed.set_footer(text='추후 수정 될 예정입니다.')
+    await ctx.send(embed=embed)
+
+
+@bot.command()
 async def add(ctx, left: int, right: int):
     #Adds two numbers together.
     await ctx.send(left + right)
